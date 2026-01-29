@@ -1,4 +1,4 @@
-package com.odontologo.odontologo;
+package com.odontologo.odontologo.model;
 
 import lombok.Getter;
 import lombok.Setter;

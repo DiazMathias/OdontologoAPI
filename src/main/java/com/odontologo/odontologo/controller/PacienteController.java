@@ -1,6 +1,6 @@
 package com.odontologo.odontologo.controller;
 
-import com.odontologo.odontologo.Paciente;
+import com.odontologo.odontologo.model.Paciente;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-public class OdontologoController {
+public class PacienteController {
 
     private final List<Paciente> listaPacientes = new ArrayList<>(List.of(
             new Paciente(1L, 11111111, "Mathias", "Diaz", LocalDate.of(2022, 2, 12)),
